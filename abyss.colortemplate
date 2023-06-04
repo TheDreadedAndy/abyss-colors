@@ -28,16 +28,6 @@ Color: white       #ffffff ~ White
 Term colors: black darkred darkgreen darkyellow darkblue darkmagenta darkcyan
 Term colors: gray darkgray red green yellow blue magenta cyan white
 
-; Cleared highlights
-TermCursorNC none none
-CurSearch none none
-CursorColumn none none
-CursorLine none none
-NormalNC none none
-MsgArea none none
-FloatShadow none none
-FloatShadowThrough none none
-
 ; Highlight links
 EndOfBuffer -> NonText
 LineNr -> NonText
