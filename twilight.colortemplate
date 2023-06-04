@@ -1,0 +1,173 @@
+Full name: The Road to Dawn
+Short name: twilight
+Author: Andrew Spaulding <andyespaulding@gmail.com>
+License: BSD 2-clause
+Neovim: yes
+
+Variant: gui 256 16
+Background: dark
+
+; Color palette.
+Color: black       #000000 ~ Black
+Color: darkred     #ad2424 ~ DarkRed
+Color: darkgreen   #008c03 ~ DarkGreen
+Color: darkyellow  #f27100 ~ DarkYellow
+Color: darkblue    #012b54 ~ DarkBlue
+Color: darkmagenta #ba0057 ~ DarkMagenta
+Color: darkcyan    #1576a3 ~ DarkCyan
+Color: gray        #aaaaaa ~ Gray
+Color: darkgray    #444444 ~ DarkGray
+Color: red         #fc2205 ~ Red
+Color: green       #2abd2d ~ Green
+Color: yellow      #fa9a46 ~ Yellow
+Color: blue        #0057ad ~ Blue
+Color: magenta     #bf3274 ~ Magenta
+Color: cyan        #327cc2 ~ Cyan
+Color: white       #ffffff ~ White
+
+; 16-color terminals
+Term colors: black darkred darkgreen darkyellow darkblue darkmagenta darkcyan
+Term colors: gray darkgray red green yellow blue magenta cyan white
+
+; Highlight links
+EndOfBuffer -> NonText
+SpecialKey -> NonText
+Whitespace -> NonText
+CursorLineNr -> Special
+CursorLineSign -> SignColumn
+CursorLineFold -> FoldColumn
+WinSeparator -> VertSplit
+Title -> StatusLine
+PmenuKind -> Pmenu
+PmenuKindSel -> PmenuSel
+PmenuExtra -> Pmenu
+PmenuExtraSel -> PmenuSel
+VisualNC -> Visual
+Question -> MoreMsg
+Search -> Visual
+SignColumn -> LineNr
+Conceal -> Folded
+WildMenu -> PmenuSel
+QuickFixLine -> DiagnosticWarn
+MsgSeparator -> StatusLine
+NormalFloat -> Pmenu
+FloatBorder -> WinSeparator
+FloatTitle -> Title
+lCursor -> Cursor
+Substitute -> Search
+WinBar -> TabLineSel
+WinBarNC -> TabLine
+String -> Constant
+Character -> Constant
+Number -> Constant
+Boolean -> Constant
+float -> Number
+Identifier -> Normal
+Conditional -> Statement
+Repeat -> Statement
+Label -> Statement
+Operator -> Statement
+Keyword -> Statement
+Exception -> Statement
+Include -> PreProc
+Define -> PreProc
+Macro -> PreProc
+PreCondit -> PreProc
+StorageClass -> Type
+Structure -> Type
+Typedef -> Type
+Tag -> Special
+SpecialChar -> Special
+Delimiter -> Special
+SpecialComment -> Special
+Debug -> Special
+DiagnosticVirtualTextError -> DiagnosticError
+DiagnosticVirtualTextWarn -> DiagnosticWarn
+DiagnosticVirtualTextInfo -> DiagnosticInfo
+DiagnosticVirtualTextHint -> DiagnosticHint
+DiagnosticVirtualTextOk -> DiagnosticOk
+DiagnosticFloatingError -> DiagnosticError
+DiagnosticFloatingWarn -> DiagnosticWarn
+DiagnosticFloatingInfo -> DiagnosticInfo
+DiagnosticFloatingHint -> DiagnosticHint
+DiagnosticFloatingOk -> DiagnosticOk
+DiagnosticSignError -> DiagnosticError
+DiagnosticSignWarn -> DiagnosticWarn
+DiagnosticSignInfo -> DiagnosticInfo
+DiagnosticSignHint -> DiagnosticHint
+DiagnosticSignOk -> DiagnosticOk
+DiagnosticUnnecessary -> Comment
+
+; Highlights
+Normal gray darkblue
+NonText blue darkblue
+Underlined gray darkblue underline
+
+Cursor bg fg
+TermCursor omit omit reverse
+Visual darkblue gray
+
+LineNr white black bold
+LineNrAbove darkgray black
+LineNrBelow darkgray black
+
+VertSplit white darkblue
+StatusLine white black bold
+StatusLineNC white black
+TabLine gray black
+TabLineSel white black
+TabLineFill white black bold
+Folded gray black
+FoldColumn white black
+ColorColumn gray black
+
+IncSearch omit omit reverse
+Search darkblue gray
+
+DiffAdd gray darkgreen
+DiffChange gray darkyellow
+DiffDelete gray darkred
+DiffText gray black
+
+SpellBad red omit underline
+SpellCap blue omit underline
+SpellRare magenta omit underline
+SpellLocal cyan omit underline
+
+Pmenu white darkcyan bold
+PmenuSel white black bold
+PmenuSbar darkyellow darkyellow
+PmenuThumb yellow yellow
+
+MoreMsg darkred yellow bold
+ModeMsg darkred yellow bold
+WarningMsg yellow darkblue bold
+ErrorMsg red darkblue bold
+
+RedrawDebugNormal omit omit reverse
+RedrawDebugClear darkblue yellow
+RedrawDebugComposed darkblue green
+RedrawDebugRecompose darkblue red
+
+Directory darkcyan omit
+Comment darkgray omit
+Error red omit bold
+Todo black yellow bold
+Constant darkred omit
+Function darkmagenta omit bold
+Statement darkyellow omit bold
+PreProc magenta omit
+Type darkgreen omit bold
+Special white omit
+
+DiagnosticError red omit
+DiagnosticWarn yellow omit
+DiagnosticInfo darkcyan omit
+DiagnosticHint cyan omit
+DiagnosticOk green omit
+DiagnosticUnderlineError red omit underline
+DiagnosticUnderlineWarn yellow omit underline
+DiagnosticUnderlineInfo darkcyan omit underline
+DiagnosticUnderlineHint cyan omit underline
+DiagnosticUnderlineOk green omit underline
+DiagnosticDeprecated omit omit strikethrough
