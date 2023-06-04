@@ -107,11 +107,12 @@ Underlined gray black underline
 Cursor bg fg
 TermCursor omit omit reverse
 Visual black gray
+MatchParen darkcyan black bold
 
 CursorLineNr white darkblue bold
 LineNr blue darkblue
 
-VertSplit white black
+VertSplit blue black
 StatusLine white darkblue bold
 StatusLineNC white darkblue
 TabLine gray darkblue
