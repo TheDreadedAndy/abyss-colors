@@ -1,0 +1,181 @@
+Full name: The Door to Darkness
+Short name: abyss
+Author: Andrew Spaulding <andyespaulding@gmail.com>
+License: BSD 2-clause
+
+Variant: gui 256 16
+Background: dark
+
+; Color palette.
+Color: black       #292929 ~ Black
+Color: darkred     #ad2424 ~ DarkRed
+Color: darkgreen   #008c03 ~ DarkGreen
+Color: darkyellow  #a36d02 ~ DarkYellow
+Color: darkblue    #0057ad ~ DarkBlue
+Color: darkmagenta #b3258d ~ DarkMagenta
+Color: darkcyan    #3086db ~ DarkCyan
+Color: gray        #aaaaaa ~ Gray
+Color: darkgray    #444444 ~ DarkGray
+Color: red         #de0909 ~ Red
+Color: green       #2abd2d ~ Green
+Color: yellow      #aebf11 ~ Yellow
+Color: blue        #2b7bcc ~ Blue
+Color: magenta     #db30ae ~ Magenta
+Color: cyan        #4e9eed ~ Cyan
+Color: white       #ffffff ~ White
+
+; 16-color terminals
+Term colors: black darkred darkgreen darkyellow darkblue darkmagenta darkcyan
+Term colors: gray darkgray red green yellow blue magenta cyan white
+
+; Cleared highlights
+TermCursorNC none none
+CurSearch none none
+CursorColumn none none
+CursorLine none none
+NormalNC none none
+MsgArea none none
+FloatShadow none none
+FloatShadowThrough none none
+
+; Highlight links
+EndOfBuffer -> NonText
+LineNr -> NonText
+SpecialKey -> NonText
+Whitespace -> NonText
+LineNrAbove -> LineNr
+LineNrBelow -> LineNr
+CursorLineNr -> Special
+CursorLineSign -> SignColumn
+CursorLineFold -> FoldColumn
+WinSeparator -> VertSplit
+Title -> StatusLine
+PmenuKind -> Pmenu
+PmenuKindSel -> PmenuSel
+PmenuExtra -> Pmenu
+PmenuExtraSel -> PmenuSel
+VisualNC -> Visual
+Question -> MoreMsg
+Search -> Visual
+SignColumn -> LineNr
+Conceal -> Folded
+WildMenu -> PmenuSel
+QuickFixLine -> DiagnosticWarn
+MsgSeparator -> StatusLine
+NormalFloat -> Pmenu
+FloatBorder -> WinSeparator
+FloatTitle -> Title
+lCursor -> Cursor
+Substitute -> Search
+WinBar -> TabLineSel
+WinBarNC -> TabLine
+String -> Constant
+Character -> Constant
+Number -> Constant
+Boolean -> Constant
+float -> Number
+Identifier -> Normal
+Conditional -> Statement
+Repeat -> Statement
+Label -> Statement
+Operator -> Statement
+Keyword -> Statement
+Exception -> Statement
+Include -> PreProc
+Define -> PreProc
+Macro -> PreProc
+PreCondit -> PreProc
+StorageClass -> Type
+Structure -> Type
+Typedef -> Type
+Tag -> Special
+SpecialChar -> Special
+Delimiter -> Special
+SpecialComment -> Special
+Debug -> Special
+DiagnosticVirtualTextError -> DiagnosticError
+DiagnosticVirtualTextWarn -> DiagnosticWarn
+DiagnosticVirtualTextInfo -> DiagnosticInfo
+DiagnosticVirtualTextHint -> DiagnosticHint
+DiagnosticVirtualTextOk -> DiagnosticOk
+DiagnosticFloatingError -> DiagnosticError
+DiagnosticFloatingWarn -> DiagnosticWarn
+DiagnosticFloatingInfo -> DiagnosticInfo
+DiagnosticFloatingHint -> DiagnosticHint
+DiagnosticFloatingOk -> DiagnosticOk
+DiagnosticSignError -> DiagnosticError
+DiagnosticSignWarn -> DiagnosticWarn
+DiagnosticSignInfo -> DiagnosticInfo
+DiagnosticSignHint -> DiagnosticHint
+DiagnosticSignOk -> DiagnosticOk
+DiagnosticUnnecessary -> Comment
+
+; Highlights
+Normal gray black
+NonText darkgray black
+Underlined gray black underline
+
+Cursor bg fg
+TermCursor omit omit reverse
+Visual black gray
+
+VertSplit white black
+StatusLine white darkgray bold
+StatusLineNC white darkgray
+TabLine gray darkgray
+TabLineSel white darkgray
+TabLineFill black darkgray bold
+Folded gray darkgray
+FoldColumn white darkgray
+ColorColumn gray darkgray
+
+IncSearch omit omit reverse
+Search black gray
+
+DiffAdd gray darkgreen
+DiffChange gray darkyellow
+DiffDelete gray darkred
+DiffText gray black
+
+SpellBad red omit underline
+SpellCap blue omit underline
+SpellRare magenta omit underline
+SpellLocal cyan omit underline
+
+Pmenu white darkgray bold
+PmenuSel gray black bold
+PmenuSbar darkgray darkgray
+PmenuThumb gray gray
+
+MoreMsg darkgreen black bold
+ModeMsg black green bold
+WarningMsg darkyellow black bold
+ErrorMsg darkred black bold
+
+RedrawDebugNormal omit omit reverse
+RedrawDebugClear black yellow
+RedrawDebugComposed black darkgreen
+RedrawDebugRecompose black darkred
+
+Directory darkblue omit
+Comment darkblue omit
+Error darkred black bold
+Todo darkblue yellow bold
+Constant darkred omit
+Function magenta omit bold
+Statement darkyellow omit bold
+PreProc magenta omit
+Type darkgreen omit bold
+Special white omit
+
+DiagnosticError red omit
+DiagnosticWarn yellow omit
+DiagnosticInfo darkcyan omit
+DiagnosticHint cyan omit
+DiagnosticOk green omit
+DiagnosticUnderlineError red omit underline
+DiagnosticUnderlineWarn yellow omit underline
+DiagnosticUnderlineInfo darkcyan omit underline
+DiagnosticUnderlineHint cyan omit underline
+DiagnosticUnderlineOk green omit underline
+DiagnosticDeprecated omit omit strikethrough
