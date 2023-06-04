@@ -2,6 +2,7 @@ Full name: The Door to Darkness
 Short name: abyss
 Author: Andrew Spaulding <andyespaulding@gmail.com>
 License: BSD 2-clause
+Neovim: yes
 
 Variant: gui 256 16
 Background: dark
