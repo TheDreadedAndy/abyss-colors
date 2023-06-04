@@ -8,16 +8,15 @@ Variant: gui 256 16
 Background: dark
 
 ; Color palette.
-Color: black       #000000 ~ Black
+Color: black       #000a15 ~ Black
 Color: darkred     #ad2424 ~ DarkRed
 Color: darkgreen   #008c03 ~ DarkGreen
 Color: darkyellow  #f27100 ~ DarkYellow
-;Color: darkblue    #00172e ~ DarkBlue
-Color: darkblue    #000d1a ~ DarkBlue
+Color: darkblue    #00172e ~ DarkBlue
 Color: darkmagenta #ba0057 ~ DarkMagenta
 Color: darkcyan    #1576a3 ~ DarkCyan
 Color: gray        #aaaaaa ~ Gray
-Color: darkgray    #444444 ~ DarkGray
+Color: darkgray    #555555 ~ DarkGray
 Color: red         #fc2205 ~ Red
 Color: green       #2abd2d ~ Green
 Color: yellow      #fa9a46 ~ Yellow
@@ -101,29 +100,29 @@ DiagnosticSignOk -> DiagnosticOk
 DiagnosticUnnecessary -> Comment
 
 ; Highlights
-Normal gray darkblue
-NonText blue darkblue
-Underlined gray darkblue underline
+Normal gray black
+NonText blue black
+Underlined gray black underline
 
 Cursor bg fg
 TermCursor omit omit reverse
-Visual darkblue gray
+Visual black gray
 
-CursorLineNr white black bold
-LineNr darkgray black
+CursorLineNr white darkblue bold
+LineNr blue darkblue
 
-VertSplit white darkblue
-StatusLine white black bold
-StatusLineNC white black
-TabLine gray black
-TabLineSel white black
-TabLineFill darkblue black bold
-Folded gray black
-FoldColumn white black
-ColorColumn gray black
+VertSplit white black
+StatusLine white darkblue bold
+StatusLineNC white darkblue
+TabLine gray darkblue
+TabLineSel white darkblue
+TabLineFill blue darkblue bold
+Folded gray darkblue
+FoldColumn white darkblue
+ColorColumn gray darkblue
 
 IncSearch omit omit reverse
-Search darkblue gray
+Search black gray
 
 DiffAdd gray darkgreen
 DiffChange gray darkyellow
@@ -136,23 +135,23 @@ SpellRare magenta omit underline
 SpellLocal cyan omit underline
 
 Pmenu white darkcyan bold
-PmenuSel white black bold
+PmenuSel white darkblue bold
 PmenuSbar darkyellow darkyellow
 PmenuThumb yellow yellow
 
 MoreMsg darkred yellow bold
 ModeMsg darkred yellow bold
-WarningMsg yellow darkblue bold
-ErrorMsg red darkblue bold
+WarningMsg yellow black bold
+ErrorMsg red black bold
 
 RedrawDebugNormal omit omit reverse
-RedrawDebugClear darkblue yellow
-RedrawDebugComposed darkblue green
-RedrawDebugRecompose darkblue red
+RedrawDebugClear black yellow
+RedrawDebugComposed black green
+RedrawDebugRecompose black red
 
-Directory darkcyan darkblue
-Comment darkgray darkblue
-Error red darkblue bold
+Directory darkcyan black
+Comment darkgray black
+Error red black bold
 Todo black yellow bold
 Constant darkred omit
 Function darkmagenta omit bold
